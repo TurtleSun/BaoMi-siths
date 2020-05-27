@@ -1,13 +1,61 @@
+.schooltitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 8rem;
+  width: 100%;
+  font-family: 'Bree Serif', serif;
+  font-size: 0.75rem;
+  margin-left: 0.9rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #C5B358;
+}
+
+.techlogo {
+  height: 5rem;
+  width: 5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
+  margin-left: 1rem;
+}
+
+.techtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.title1 {
+  font-size: 2.75rem;
+  margin-left: 0.25rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0rem;
+}
+
+.title2 {
+  margin-top: 0rem;
+  margin-left: 1.05rem;
+}
+
 .parentsandstaff {
   height: 100vh;
   width: 100vw;
+  margin-top: -4rem;
+  margin-left: 0.95rem;
 }
 
 #slideshow {
   margin: 80px auto;
   position: relative;
-  width: 55vw;
-  height: 63vh;
+  width: 80%;
+  height: 40%;
   padding: 10px;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
@@ -22,8 +70,8 @@
 }
 
 .pic {
-  height: 63vh;
-  width: 55vw;
+  height: 100%;
+  width: 100%;
 }
 
 body {
