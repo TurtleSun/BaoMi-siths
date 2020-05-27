@@ -1,0 +1,35 @@
+.parentsandstaff {
+  height: 100vh;
+  width: 100vw;
+}
+
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 55vw;
+  height: 63vh;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.pic {
+  height: 63vh;
+  width: 55vw;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
