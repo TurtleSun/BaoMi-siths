@@ -4,16 +4,74 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Staten Island Technical High School</title>
     <link rel="stylesheet" href="scss/style.scss">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="c-block 2"> 
-        <div class="calender">
+    <div class="schooltitle">
+        <img src="media/SITHSLogo 2.jpg" alt="" class="techlogo">
+        <div class="techtitle">
+            <h1 class="title1">Staten Island</h1>
+            <h1 class="title2">Technical High School</h1>
+        </div>
+    </div>
+    <div class="parentsandstaff">
+        <div id="slideshow">
+            <div>
+                <img src="media/schoolexterior.jpg" alt="" class="pic exterior">
+            </div>
+            <div>
+                <img src="media/lab.jpg" alt="" class="pic lab">
+            </div>
+            <div>
+                <img src="media/olympiada.jpg" alt="" class="pic olympiada">
+            </div>
+            <div>
+                <img src="media/volleyball.jpg" alt="" class="pic volleyball">
+            </div>
+            <div>
+                <img src="media/whalenclass.jpg" alt="" class="pic whalenclass">
+            </div>
+        </div>
+    </div>
+    <section class="c-block2"> 
+        <div class="calender" id="cb2 item">
+            <h2 id="calender header">Calender</h2>
+            <iframe src="https://calendar.google.com/calendar/embed?src=sitechhs.com_classroomf29abbac%40group.calendar.google.com&ctz=America%2FNew_York"
+            class="cal-style"></iframe>
             <!-- both need js stuff so will continue after finding proper bases -->
         </div>
-        <div class="announcements">
+        <div class="announcements" id="cb2 item">
+            <div class="slideshow-container">
 
+                <div class="mySlides">
+                  <q>ACCOUNCEMENT 1</q>
+                  <a href=""></a>
+                </div>
+                
+                <div class="mySlides">
+                  <q>ANNOUNCEMENT 2</q>
+                  <a href=""></a>
+                </div>
+                
+                <div class="mySlides">
+                  <q>ANNOUNCEMENT 3</q>
+                  <a href=""></a>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                
+                <div class="dot-container">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
         </div>
     </section>
+
+    </Section>
     <script src="js/index.js"></script>
 </body>
 </html>
