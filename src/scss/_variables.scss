@@ -1,0 +1,37 @@
+$colors:(
+  primary: 	#C5B358,
+);
+
+$phone: 375px;
+$tablet: 780px;
+$laptop: 1280px;
+$desktop: 1500px;
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+  
+@mixin desktop {
+  @media(max-width: #{$desktop}){
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media(max-width: #{$laptop}){
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media(max-width: #{$tablet}){
+    @content;
+  }
+}
+
+@mixin phone {
+  @media(max-width: #{$phone}){
+    @content;
+  }
+}
+  
