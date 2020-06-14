@@ -5,6 +5,12 @@
   height: 15vh;
   width: 100%;
   background-color: #C5B358;
+  margin-bottom: 1rem;
+}
+
+.parentsandstaff {
+  height: 40vh;
+  width: 100%;
 }
 
 .techlogo {
@@ -20,6 +26,36 @@
 .title2 {
   font-size: 1.5rem;
   margin-top: -1rem;
+}
+
+.mySlides {
+  margin-left: 1.1rem;
+  height: 13rem;
+  width: 90%;
+}
+
+.Quick_Links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quicklinks {
+  height: 2.5rem;
+  width: 10rem;
+  background-color: #fcbf1e;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 body {
