@@ -262,7 +262,7 @@
 }
 
 .media {
-  height: 32vh;
+  height: 35vh;
   width: 100%;
   background-color: black;
   margin-top: 1.5rem;
@@ -321,6 +321,17 @@
   font-family: 'Karma', serif;
   font-size: 1rem;
   margin-bottom: -1.2rem;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5rem;
+  margin-left: 4.5rem;
 }
 
 body {
