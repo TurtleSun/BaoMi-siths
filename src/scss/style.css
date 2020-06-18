@@ -166,7 +166,7 @@
 }
 
 .schoolrankings {
-  height: 100vh;
+  height: 96vh;
   width: 100%;
   background-color: #C5B358;
   display: -webkit-box;
@@ -193,6 +193,44 @@
   height: 15rem;
   margin: 1rem 0.2rem;
   border: 3px solid white;
+}
+
+.facultynumber {
+  position: absolute;
+  color: white;
+  top: 105rem;
+  z-index: 4;
+  font-size: 3rem;
+  margin-left: 2.75rem;
+}
+
+.teachers {
+  position: relative;
+  z-index: 3;
+  height: 15rem;
+  width: 96.5%;
+  border: 3px solid white;
+  margin-left: 0.2rem;
+  margin-top: -0.75rem;
+}
+
+.nationalranking {
+  position: absolute;
+  z-index: 6;
+  top: 122rem;
+  font-size: 2rem;
+  color: white;
+  margin-left: 1rem;
+}
+
+.awards {
+  position: relative;
+  height: 15rem;
+  width: 96.5%;
+  z-index: 5;
+  border: 3px solid white;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
 }
 
 body {
