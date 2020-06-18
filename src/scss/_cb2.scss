@@ -1,9 +1,15 @@
+.cb2{
+  height: 150vh;
+  width: 100%;
+}
+
 .c-block2{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 50rem;
-    width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: auto;
+  margin-bottom: 1rem;
 }
 
 #cb2-item{
@@ -11,11 +17,12 @@
     justify-content: space-between;
     // align-items: center;
     flex-direction: row;
-
 }
 
 .cal-style{
-    width: 800;
+  margin-left: 0.2rem;
+  margin-bottom: 0.2rem;
+    width: 98%;
     height:600;
     border: 0;
     scroll-behavior: no;
@@ -26,20 +33,18 @@
     background: #f1f1f1f1;
   }
   
-  /* Slides */
-  .mySlides {
+  .eachSlide {
     display: none;
     padding: 80px;
     text-align: center;
   }
   
-  /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -30px;
+    margin-top: -3px;
     padding: 16px;
     color: #888;
     font-weight: bold;
@@ -48,27 +53,23 @@
     user-select: none;
   }
   
-  /* Position the "next button" to the right */
   .next {
     position: absolute;
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
     color: white;
   }
   
-  /* The dot/bullet/indicator container */
   .dot-container {
       text-align: center;
       padding: 20px;
       background: #ddd;
   }
   
-  /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
     height: 15px;
@@ -80,7 +81,27 @@
     transition: background-color 0.6s ease;
   }
   
-  /* Add a background color to the active dot/circle */
   .active, .dot:hover {
     background-color: #717171;
+  }
+
+  .calender-box{
+    width: 100%;
+    height: 3.5rem;
+    background-color: #C5B358;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  }
+
+  #calender-header{
+    font-family: 'Karma', serif;
+    font-size: 3rem;
+    margin-left: 5rem;
+    margin-top: -1rem;
+    color: white;
+  }
+
+
+  .calender{
+    margin-bottom: 1rem;
   }

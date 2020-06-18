@@ -1,0 +1,47 @@
+.media{
+    height: 32vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.schooltitle2{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.schoollogopic{
+    height: 15vh;
+}
+
+.tp1{
+    color: white;
+    font-family: 'Karma', serif;
+    font-size: 2.25rem;
+    margin-left: 0.5rem;
+    margin-top: 0.8rem;
+}
+
+.tp2{
+    color: white;
+    font-family: 'Karma', serif;
+    font-size: 1.25rem;
+    margin-left: 1rem;
+    margin-top: -0.95rem;
+}
+
+.schoolinfo{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.address, .phone, .fax{
+    font-family: 'Karma', serif;
+    font-size: 1rem;
+    margin-bottom: -1.2rem;
+}

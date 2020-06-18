@@ -9,29 +9,37 @@
 }
 
 .parentsandstaff {
-  height: 40vh;
+  height: 38vh;
   width: 100%;
 }
 
 .techlogo {
-  height: 6rem;
-  margin: 1rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  height: 13vh;
 }
 
 .title1 {
-  margin-left: 1rem;
-  margin-top: 2rem;
+  font-size: 2.4rem;
+  margin-left: 1.1rem;
+  margin-top: 1.65rem;
+  font-family: 'Karma', serif;
 }
 
 .title2 {
-  font-size: 1.5rem;
-  margin-top: -1rem;
+  font-size: 1.45rem;
+  margin-left: 1rem;
+  margin-top: -2.2rem;
+  font-family: 'Karma', serif;
 }
 
 .mySlides {
-  margin-left: 1.1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
   height: 13rem;
   width: 90%;
+  border: 5px solid black;
 }
 
 .Quick_Links {
@@ -56,6 +64,263 @@
   font-size: 1.5rem;
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.cb2 {
+  height: 150vh;
+  width: 100%;
+}
+
+.c-block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: auto;
+  margin-bottom: 1rem;
+}
+
+#cb2-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.cal-style {
+  margin-left: 0.2rem;
+  margin-bottom: 0.2rem;
+  width: 98%;
+  height: 600;
+  border: 0;
+  scroll-behavior: no;
+}
+
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+.eachSlide {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -3px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.calender-box {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #C5B358;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+}
+
+#calender-header {
+  font-family: 'Karma', serif;
+  font-size: 3rem;
+  margin-left: 5rem;
+  margin-top: -1rem;
+  color: white;
+}
+
+.calender {
+  margin-bottom: 1rem;
+}
+
+.schoolrankings {
+  height: 96vh;
+  width: 100%;
+  background-color: #C5B358;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.studentpopulation {
+  position: absolute;
+  color: white;
+  top: 89.5rem;
+  left: 2rem;
+  z-index: 2;
+  font-size: 3rem;
+  font-family: 'Karma', serif;
+}
+
+.students {
+  position: relative;
+  z-index: 1;
+  height: 15rem;
+  margin: 1rem 0.2rem;
+  border: 3px solid white;
+}
+
+.facultynumber {
+  position: absolute;
+  color: white;
+  top: 105rem;
+  z-index: 4;
+  font-size: 3rem;
+  margin-left: 2.75rem;
+  font-family: 'Karma', serif;
+}
+
+.teachers {
+  position: relative;
+  z-index: 3;
+  height: 15rem;
+  width: 96.5%;
+  border: 3px solid white;
+  margin-left: 0.2rem;
+  margin-top: -0.75rem;
+}
+
+.nationalranking {
+  position: absolute;
+  z-index: 6;
+  top: 123rem;
+  font-size: 1.9rem;
+  color: white;
+  margin-left: 1rem;
+  font-family: 'Karma', serif;
+}
+
+.awards {
+  position: relative;
+  height: 15rem;
+  width: 96.5%;
+  z-index: 5;
+  border: 3px solid white;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+.media {
+  height: 32vh;
+  width: 100%;
+  background-color: black;
+  margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.schooltitle2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.schoollogopic {
+  height: 15vh;
+}
+
+.tp1 {
+  color: white;
+  font-family: 'Karma', serif;
+  font-size: 2.25rem;
+  margin-left: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.tp2 {
+  color: white;
+  font-family: 'Karma', serif;
+  font-size: 1.25rem;
+  margin-left: 1rem;
+  margin-top: -0.95rem;
+}
+
+.schoolinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.address, .phone, .fax {
+  font-family: 'Karma', serif;
+  font-size: 1rem;
+  margin-bottom: -1.2rem;
 }
 
 body {
