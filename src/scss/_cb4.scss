@@ -40,8 +40,19 @@
     align-items: center;
 }
 
+.socials{
+    font-family: 'Karma', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3px;
+    color: white;
+    flex-direction: row;
+}
+
 .address, .phone, .fax{
     font-family: 'Karma', serif;
     font-size: 1rem;
     margin-bottom: -1.2rem;
 }
+
