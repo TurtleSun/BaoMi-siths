@@ -20,15 +20,17 @@
 }
 
 .title1 {
-  font-size: 2.25rem;
-  margin-left: 1.75rem;
-  margin-top: 1.5rem;
+  font-size: 2.4rem;
+  margin-left: 1.1rem;
+  margin-top: 1.65rem;
+  font-family: 'Karma', serif;
 }
 
 .title2 {
-  font-size: 1.6rem;
-  margin-left: 0.45rem;
-  margin-top: -1.25rem;
+  font-size: 1.45rem;
+  margin-left: 1rem;
+  margin-top: -2.2rem;
+  font-family: 'Karma', serif;
 }
 
 .mySlides {
@@ -208,6 +210,7 @@
   left: 2rem;
   z-index: 2;
   font-size: 3rem;
+  font-family: 'Karma', serif;
 }
 
 .students {
@@ -225,6 +228,7 @@
   z-index: 4;
   font-size: 3rem;
   margin-left: 2.75rem;
+  font-family: 'Karma', serif;
 }
 
 .teachers {
@@ -240,10 +244,11 @@
 .nationalranking {
   position: absolute;
   z-index: 6;
-  top: 122rem;
-  font-size: 2rem;
+  top: 123rem;
+  font-size: 1.9rem;
   color: white;
   margin-left: 1rem;
+  font-family: 'Karma', serif;
 }
 
 .awards {
@@ -254,6 +259,44 @@
   border: 3px solid white;
   margin-left: 0.2rem;
   margin-top: 0.2rem;
+}
+
+.media {
+  height: 50vh;
+  width: 100%;
+  background-color: black;
+  margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.schooltitle2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.schoollogopic {
+  height: 15vh;
+}
+
+.tp1 {
+  color: white;
+  font-family: 'Karma', serif;
+  font-size: 2.25rem;
+  margin-left: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.tp2 {
+  color: white;
+  font-family: 'Karma', serif;
+  font-size: 1.25rem;
+  margin-left: 1rem;
+  margin-top: -0.95rem;
 }
 
 body {
