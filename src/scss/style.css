@@ -42,6 +42,12 @@
   border: 5px solid black;
 }
 
+@media (min-width: 1800px) {
+  .mySlides {
+    height: 50rem;
+  }
+}
+
 .Quick_Links {
   display: -webkit-box;
   display: -ms-flexbox;
