@@ -1,9 +1,14 @@
+.cb2{
+  height: 150vh;
+  width: 100%;
+}
+
 .c-block2{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 50rem;
-    width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: auto;
 }
 
 #cb2-item{
@@ -11,7 +16,6 @@
     justify-content: space-between;
     // align-items: center;
     flex-direction: row;
-
 }
 
 .cal-style{
