@@ -1,9 +1,10 @@
 .media{
-    height: 50vh;
+    height: 32vh;
     width: 100%;
     background-color: black;
     margin-top: 1.5rem;
     display: flex;
+    flex-direction: column;
 }
 
 .schooltitle2{
@@ -30,4 +31,17 @@
     font-size: 1.25rem;
     margin-left: 1rem;
     margin-top: -0.95rem;
+}
+
+.schoolinfo{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.address, .phone, .fax{
+    font-family: 'Karma', serif;
+    font-size: 1rem;
+    margin-bottom: -1.2rem;
 }
