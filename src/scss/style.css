@@ -82,6 +82,7 @@
           flex-direction: column;
   height: 100vh;
   width: auto;
+  margin-bottom: 1rem;
 }
 
 #cb2-item {
@@ -98,7 +99,9 @@
 }
 
 .cal-style {
-  width: 800;
+  margin-left: 0.2rem;
+  margin-bottom: 0.2rem;
+  width: 98%;
   height: 600;
   border: 0;
   scroll-behavior: no;
@@ -120,7 +123,7 @@
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -30px;
+  margin-top: -3px;
   padding: 16px;
   color: #888;
   font-weight: bold;
@@ -163,6 +166,26 @@
 
 .active, .dot:hover {
   background-color: #717171;
+}
+
+.calender-box {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #C5B358;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+}
+
+#calender-header {
+  font-family: 'Karma', serif;
+  font-size: 3rem;
+  margin-left: 5rem;
+  margin-top: -1rem;
+  color: white;
+}
+
+.calender {
+  margin-bottom: 1rem;
 }
 
 .schoolrankings {
