@@ -3,19 +3,22 @@
     width: 100%;
     background-color: #C5B358;
     display: flex;
+    flex-direction: column;
 }
 
 .studentpopulation{
     position: absolute;
-    color: wheat;
-    bottom: 5rem;
-    z-index: 1;
+    color: white;
+    top: 89.5rem;
+    left: 2rem;
+    z-index: 2;
+    font-size: 3rem;
 }
 
 .students{
     position: relative;
-    z-index: 2;
-    margin-top: 1rem;
+    z-index: 1;
     height: 15rem;
-    margin-left: 0.5rem;
+    margin: 1rem 0.2rem;
+    border: 3px solid white;
 }
