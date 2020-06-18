@@ -9,7 +9,7 @@
 }
 
 .parentsandstaff {
-  height: 40vh;
+  height: 38vh;
   width: 100%;
 }
 
@@ -22,18 +22,22 @@
 .title1 {
   font-size: 2.25rem;
   margin-left: 1.75rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .title2 {
   font-size: 1.6rem;
   margin-left: 0.45rem;
+  margin-top: -1.25rem;
 }
 
 .mySlides {
-  margin-left: 1.1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
   height: 13rem;
   width: 90%;
+  border: 5px solid black;
 }
 
 .Quick_Links {
