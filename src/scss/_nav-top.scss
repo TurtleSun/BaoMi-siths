@@ -1,0 +1,77 @@
+.nav{
+    height: 6vh;
+    background: #1B1E23;
+}
+
+.navlinks{
+    display: flex;
+    list-style-type: none; //please put this on socials too (so there are no dots)
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav li{
+    opacity: 0;
+}
+
+.navlinks li a{
+    color: white;
+    text-decoration: none; //please put this for the socials too
+    font-size: 20px;
+    //font wise it is your choice
+}
+
+.navlinks li:nth-child(1){
+    transform: all 0.5s ease 0.2s;
+}
+.navlinks li:nth-child(2){
+    transform: all 0.5s ease 0.4s;
+}
+.navlinks li:nth-child(3){
+    transform: all 0.5s ease 0.6s;
+}
+li.fade{
+    opacity: 1;
+}
+
+@media screen and (max-width:768px) {
+    .line{
+        width: 25px;
+        height: 3px;
+        margin: 5px;
+        background: whitesmoke;
+    }
+
+    .nav{
+        position: relative;
+    }
+
+    .hamburger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+    }
+
+    .navlinks{
+        position: fixed;
+        background: #1B1E23;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column; //once again for socials please put "ROW"
+        clip-path: circle(10px at 90% 10%);
+        -webkit-clip-path: circle(10px at 90% 10%);
+        transform: all 1s ease-out;
+        pointer-events: none;
+    }
+    .navlinks.open{
+        clip-path: circle(900px at 90% 10%);
+        -webkit-clip-path: circle(900px at 90% 10%);
+        pointer-events: all;
+    }
+}

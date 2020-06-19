@@ -41,3 +41,15 @@ function showSlides(n) {
   slides[eachSlide-1].style.display = "block";
   dots[eachSlide-1].className += " active";
 } 
+
+//this js is for nav
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.navlinks');
+const links = document.querySelectorAll('.navlinks li');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle("open");
+  links.forEach(link => {
+    link.classList.toggle("fade");
+  });
+});
