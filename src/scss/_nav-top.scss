@@ -1,6 +1,6 @@
 header{
     position: relative;
-    max-width: 1200px;
+    max-width: 1700px;
     margin: 20px auto;
     padding: 10px;
     background: rgb(103, 105, 103);
@@ -10,9 +10,9 @@ header{
 }
 
 .logo{
-    color: goldenrod;
+    color: rgb(241, 255, 52);
     height: 60px;
-    font-size: 36px;
+    font-size: 25px;
     line-height: 60px;
     padding: 0 20px;
     text-align: center;
@@ -24,6 +24,7 @@ header{
 
 nav{
     float: right;
+    font-size: 20px;
 }
 
 .clearfix{
@@ -55,11 +56,14 @@ nav ul li a:hover{
     transition: 0.3s;
 }
 
-@media (max-width: 1200px){
+ @media (max-width: 1700px){
     header{
         margin: 20px;
     }
-}
+    .submenu{
+    display: none;
+    }  
+} 
 
 @media (max-width: 770px){
     .menu-toggle{
@@ -94,4 +98,39 @@ nav ul li a:hover{
     nav.active ul li a{
         margin: 0;
     }
+
+    .submenu{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 15px;
+        font-size: 13.5px;
+    }
+
 }
+
+
+/* .menu-toggle ul li a:hover .submenu{
+    display: block;
+    position: absolute;
+    background: goldenrod;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-toggle ul li:hover .submenu ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu-toggle ul li:hover .submenu ul li{
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+} */
+
+
+/* display: flex;
+    justify-content: flex-end;
+    margin-right: 15px; */

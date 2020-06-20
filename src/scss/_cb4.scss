@@ -48,7 +48,16 @@
 
 .socials{
     display: flex;
+    justify-content: space-around;
     align-items: center;
     margin-top: 1.5rem;
-    margin-left: 4.5rem;
+}
+
+.links{
+    list-style: none;
+}
+
+.links a{
+    text-decoration: none;
+    color: #fff;
 }

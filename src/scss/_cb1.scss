@@ -7,7 +7,7 @@
 }
 
 .parentsandstaff{
-    height: 38vh;
+    height: 40vh;
     width: 100%;
 }
 
@@ -40,7 +40,7 @@
     border: 5px solid black;
 }
 
-.Quick_Links{
+/* .Quick_Links{
     display: flex;
     margin-top: 0.5rem;
     margin-left: 1rem;
@@ -53,6 +53,29 @@
     width: 10rem;
     background-color: #fcbf1e;
     font-size: 1.5rem;
-    margin-left: 0.5rem;
+    margin-left: .5rem;
     margin-bottom: 0.5rem;
+    list-style: none;
+    text-decoration: none;
+} */
+
+.Quick_Links{
+    display: flex;
+    background-color: #fcbf1e;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quicklinks{
+    height: 2.25rem;
+    width: auto;  
+    font-size: 1.5rem;
+    margin-left: .5rem;
+    list-style: none;
+}
+
+.quicklinks a{
+    text-decoration: none;
+    color: black;
 }

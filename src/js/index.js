@@ -41,3 +41,10 @@ function showSlides(n) {
   slides[eachSlide-1].style.display = "block";
   dots[eachSlide-1].className += " active";
 } 
+
+/* $(document).ready(function(){
+  $('.menu-toggle').click(function(){      
+    $('.menu-toggle').toggleClass('active')
+    $('nav').toggleClass('active')
+    })
+}) */
