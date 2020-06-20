@@ -6,16 +6,9 @@
     <link rel="stylesheet" href="scss/style.scss">
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Karma:wght@600&display=swap" rel="stylesheet"> 
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-
-    <div class="bar">
-        <ul>
-            <li>Academics</li>
-            <li>Extracurri</li>
-            <li>Students</li>
-        </ul>
-    </div>
 
     <div class="schooltitle">
         <img src="media/SITHSLogo 2.jpg" alt="" class="techlogo">
@@ -24,6 +17,21 @@
             <h1 class="title2">Technical High School</h1>
         </div>
     </div>
+
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" >Academics</a></li>
+                <li><a href="#" >Extracurri</a></li>
+                <li><a href="#" >Students</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+
     <div class="parentsandstaff">
         <div class="slideshow">
             <img class="mySlides" src="media/schoolexterior.jpg">
@@ -118,5 +126,16 @@
         </div>
     </div>
     <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" 
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function(){
+          $('.menu-toggle').click(function(){      
+            $('.menu-toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+            })
+        })
+    </script> 
 </body>
 </html>

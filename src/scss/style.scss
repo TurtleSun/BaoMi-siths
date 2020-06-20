@@ -2,10 +2,13 @@
 @import"_cb2.scss";
 @import"_cb3.scss";
 @import"_cb4.scss";
+@import"_nav-top.scss";
 
 body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background: black;
+    background-attachment: fixed;
 }
 
