@@ -1,5 +1,5 @@
 .nav{
-    height: 6vh;
+    height: 10vh;
     background: #1B1E23;
 }
 
@@ -20,26 +20,26 @@
 .navlinks li a{
     color: white;
     text-decoration: none; //please put this for the socials too
-    font-size: 20px;
+    font-size: 15px;
     //font wise it is your choice
 }
 
 .navlinks li:nth-child(1){
-    transform: all 0.5s ease 0.2s;
+    transition: all 0.5s ease 0.2s;
 }
 .navlinks li:nth-child(2){
-    transform: all 0.5s ease 0.4s;
+    transition: all 0.5s ease 0.4s;
 }
 .navlinks li:nth-child(3){
-    transform: all 0.5s ease 0.6s;
+    transition: all 0.5s ease 0.6s;
 }
 li.fade{
     opacity: 1;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:750px) {
     .line{
-        width: 25px;
+        width: 30px;
         height: 3px;
         margin: 5px;
         background: whitesmoke;
@@ -74,4 +74,34 @@ li.fade{
         -webkit-clip-path: circle(900px at 90% 10%);
         pointer-events: all;
     }
+
+    .nav li{
+        opacity: 0;
+    }
+    
+    .navlinks li a{
+        font-size: 20px;
+    }
+    
+    .navlinks li:nth-child(1){
+        transition: all 0.5s ease 0.2s;
+    }
+    .navlinks li:nth-child(2){
+        transition: all 0.5s ease 0.4s;
+    }
+    .navlinks li:nth-child(3){
+        transition: all 0.5s ease 0.6s;
+    }
+    li.fade{
+        opacity: 1;
+    }
 }
+
+/* .active, .navlinks ul li:hover{
+    background: #1B1E23;
+}
+
+ /* .sub-menu{
+     display: none;
+ }
+ */
