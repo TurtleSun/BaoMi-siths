@@ -22,6 +22,7 @@ header{
     text-decoration: none;
 }
 
+
 nav{
     float: right;
     font-size: 20px;
@@ -102,8 +103,14 @@ nav ul li a:hover{
     .submenu{
         display: flex;
         justify-content: flex-end;
-        margin-right: 15px;
+        margin-right: 70px;
         font-size: 13.5px;
+    }
+    .extra{
+        margin-right: 146px;
+    }
+    .studentss{
+        margin-right: 120px;
     }
 
 }
